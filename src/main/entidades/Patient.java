@@ -8,6 +8,8 @@ public class Patient {
     private int dni;
     private String registration_date;
 
+    public Patient() { }
+
     public Patient(String name, String lastname, String address, int dni, String registrationDate) {
         this.name = name;
         this.lastname = lastname;

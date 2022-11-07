@@ -1,3 +1,76 @@
 INFO    2022-11-03 00:48:01,298 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
 INFO    2022-11-03 00:56:33,517 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
 INFO    2022-11-03 00:57:40,715 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 01:19:00,221 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 10:38:01,672 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 10:44:56,377 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 10:45:56,990 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 10:47:03,426 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+ERROR   2022-11-03 11:12:20,045 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/~/appointments-database.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/~/appointments-database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2022-11-03 11:41:41,345 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/~/appointments-database.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/~/appointments-database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+ERROR   2022-11-03 11:45:43,315 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-214]
+ERROR   2022-11-03 11:49:52,099 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLNonTransientException: No hay datos disponibles.
+No data is available [2000-214]
+INFO    2022-11-03 11:51:23,997 [main] main.dao.impl.IDaoPatientImplH2  - prep0: SELECT * FROM PATIENT WHERE id=? {1: 1}
+INFO    2022-11-03 11:52:14,416 [main] main.dao.impl.IDaoPatientImplH2  - true
+INFO    2022-11-03 11:56:02,060 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@158da8e columns: 6 rows: 0 pos: -1
+ERROR   2022-11-03 11:57:50,674 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLDataException: Conversión de datos fallida, convirtiendo "?"
+Data conversion error converting "?"; SQL statement:
+SELECT * FROM PATIENT WHERE id='?' [22018-214]
+INFO    2022-11-03 11:58:19,951 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@158da8e columns: 6 rows: 0 pos: -1
+INFO    2022-11-03 12:00:21,498 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@158da8e columns: 6 rows: 0 pos: -1
+INFO    2022-11-03 12:05:06,123 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@158da8e columns: 6 rows: 0 pos: -1
+INFO    2022-11-03 12:08:32,946 [main] main.dao.impl.IDaoPatientImplH2  - rs1: org.h2.result.LocalResult@6379eb columns: 6 rows: 0 pos: -1
+INFO    2022-11-03 12:09:52,177 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@15ff3e9e columns: 6 rows: 0 pos: -1
+INFO    2022-11-03 12:09:52,238 [main] main.dao.impl.IDaoPatientImplH2  - rs1: org.h2.result.LocalResult@294425a7 columns: 6 rows: 0 pos: -1
+INFO    2022-11-03 12:11:24,813 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+ERROR   2022-11-03 12:11:24,922 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLNonTransientException: El objeto ya está cerrado
+The object is already closed [90007-214]
+INFO    2022-11-03 12:11:25,017 [main] main.dao.impl.IDaoPatientImplH2  - rs1: org.h2.result.LocalResult@9597028 columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:11:25,115 [main] main.dao.impl.IDaoPatientImplH2  - 1MartinezValeriaAmeghino 3627226583092022-04-08
+INFO    2022-11-03 12:11:25,251 [main] main.dao.impl.IDaoPatientImplH2  - rs2: org.h2.result.LocalResult@4c371370 columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:12:31,334 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@15ff3e9e columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:12:31,349 [main] main.dao.impl.IDaoPatientImplH2  - 1MartinezValeriaAmeghino 3627226583092022-04-08
+INFO    2022-11-03 12:12:31,471 [main] main.dao.impl.IDaoPatientImplH2  - rs1: org.h2.result.LocalResult@38c6f217 columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:12:52,489 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@15ff3e9e columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:12:52,506 [main] main.dao.impl.IDaoPatientImplH2  - 1MartinezValeriaAmeghino 3627226583092022-04-08
+INFO    2022-11-03 12:13:57,129 [main] main.dao.impl.IDaoPatientImplH2  - 1MartinezValeriaAmeghino 3627226583092022-04-08
+INFO    2022-11-03 12:14:54,693 [main] main.dao.impl.IDaoPatientImplH2  - id: 1Nombre MartinezNombre ValeriaAmeghino 3627226583092022-04-08
+INFO    2022-11-03 12:15:46,145 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Nombre Martinez Apellido Valeria
+INFO    2022-11-03 12:16:16,096 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido Martinez Nombre Valeria
+INFO    2022-11-03 12:16:54,887 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@158da8e columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:17:21,305 [main] main.dao.impl.IDaoPatientImplH2  - rs0: org.h2.result.LocalResult@158da8e columns: 6 rows: 1 pos: -1
+INFO    2022-11-03 12:17:35,366 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido Martinez Nombre Valeria
+INFO    2022-11-03 15:47:52,700 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 16:07:12,491 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 16:09:55,991 [main] main.dao.impl.IDaoPatientImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 16:10:24,480 [main] main.dao.impl.IDaoPatientImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 16:11:20,856 [main] main.dao.impl.IDaoPatientImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 16:39:23,260 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 16:40:07,488 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 18:56:07,693 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 18:58:12,984 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 18:59:24,048 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 18:59:24,149 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 19:00:27,612 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 19:00:27,764 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 19:00:27,871 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 19:00:27,871 [main] main.dao.impl.IDaoPatientImplH2  - id: 2 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 19:00:27,871 [main] main.dao.impl.IDaoPatientImplH2  - id: 3 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 19:15:34,511 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-03 19:15:34,914 [main] main.dao.impl.IDaoDentistImplH2  - Dentista creado correctamente.
+INFO    2022-11-03 19:15:35,038 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 19:15:35,038 [main] main.dao.impl.IDaoPatientImplH2  - id: 2 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 19:15:35,038 [main] main.dao.impl.IDaoPatientImplH2  - id: 3 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-03 19:15:35,038 [main] main.dao.impl.IDaoPatientImplH2  - id: 4 Apellido: Martinez Nombre: Valeria
+ERROR   2022-11-03 21:15:15,867 [main] main.dao.impl.IDaoPatientImplH2  - ERRORorg.h2.jdbc.JdbcSQLNonTransientConnectionException: La base de datos puede que ya esté siendo utilizada: "C:/~/appointments-database.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/~/appointments-database.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-214]
+INFO    2022-11-06 18:43:28,286 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-06 18:43:28,537 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-06 18:43:28,624 [main] main.dao.impl.IDaoPatientImplH2  - Paciente creado correctamente.
+INFO    2022-11-06 18:43:28,825 [main] main.dao.impl.IDaoPatientImplH2  - id: 1 Apellido: Martinez Nombre: Valeria
+INFO    2022-11-06 18:43:28,825 [main] main.dao.impl.IDaoPatientImplH2  - id: 2 Apellido: Perez Nombre: Leandro
+INFO    2022-11-06 18:43:28,826 [main] main.dao.impl.IDaoPatientImplH2  - id: 3 Apellido: Vallejos Nombre: Romina
